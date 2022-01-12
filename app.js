@@ -11,7 +11,6 @@ connectDB();
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const cron = require('./cron');
 
 app.use(logger('dev'));
 app.use(express.json());
